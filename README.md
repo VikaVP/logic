@@ -1,0 +1,3 @@
+Number 2 time complexity of the question is O(n) where iteration string of size n one time.
+We should iteration string input and checking if open and closing tag is compatible/balance
+So, my approached to solve this problem is using regex first to check if string/input just contains { , }, [, ], (, ) and using map method for faster built in method iterate the strings then push just open tag to new variable called open. So i use switch to check if closing tag which in iteration now is match with last open tag in variable open.
